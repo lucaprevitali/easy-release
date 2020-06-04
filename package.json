@@ -1,0 +1,35 @@
+{
+  "name": "@luca_previtali/easy-release",
+  "version": "1.0.13",
+  "description": "Easily keep changelog and a JS variable updated when release new version",
+  "keywords": [
+    "release",
+    "version",
+    "update",
+    "publish",
+    "javascript",
+    "npm",
+    "changelog"
+  ],
+  "main": "./lib/easy-release.js",
+  "bin": {
+    "easy-release": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lucaprevitali/easy-release.git"
+  },
+  "author": "Luca Previtali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucaprevitali/easy-release/issues"
+  },
+  "homepage": "https://github.com/lucaprevitali/easy-release",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "minimist": "^1.2.5"
+  }
+}
