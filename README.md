@@ -11,7 +11,7 @@ npm install --save-dev @luca_previtali/easy-release
 Add this script in package.json like the following example:
 ```
 "scripts": {
-    "version": "easy-release --changelogPath Changelog.md --constantPath src/Constant.js"
+    "postversion": "easy-release --changelogPath Changelog.md --constantPath src/Constant.js"
   }
 ```
 
